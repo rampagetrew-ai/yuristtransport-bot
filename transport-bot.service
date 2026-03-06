@@ -1,0 +1,17 @@
+[Unit]
+Description=Transport Law Telegram Bot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/transport-bot
+EnvironmentFile=/opt/transport-bot/.env
+ExecStart=/opt/transport-bot/venv/bin/python bot.py
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
