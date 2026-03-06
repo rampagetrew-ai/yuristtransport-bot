@@ -1,3 +1,0 @@
-python-telegram-bot==21.5
-aiohttp==3.9.5
-numpy==1.26.4
