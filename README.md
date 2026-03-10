@@ -38,7 +38,7 @@ python bot.py --build-index
 systemctl restart transport-bot
 ```
 
-## После теста — сменить токены!
+
 
 - Telegram: @BotFather → /mybots → Revoke token
 - Yandex: console.yandex.cloud → Сервисные аккаунты → Ключи → Удалить и создать новый
